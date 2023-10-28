@@ -3,13 +3,13 @@ certifi==2023.7.22
 charset-normalizer==3.3.1
 defusedxml==0.7.1
 dj-database-url==2.1.0
-Django==3.2.9
-django-cors-headers==4.1.0
+Django==4.2.6
+django-cors-headers==4.3.0
 djangorestframework==3.14.0
 gunicorn==21.2.0
 httpie==3.2.2
 idna==3.4
-markdown-it-py==3.0.0
+markdown-it-py==2.2.0
 mdurl==0.1.2
 multidict==6.0.4
 packaging==23.2
