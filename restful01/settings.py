@@ -128,3 +128,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
+
+import dj_database_url
+
+
+DATABASES = {
+    "default":dj_database_url.parse('postgres://toys_vsfa_user:D1looTwPMZpnNPpf5Ml6Ss8csdS61MUG@dpg-ckufg6jamefc73846o4g-a.oregon-postgres.render.com/toys_vsfa')
+}
